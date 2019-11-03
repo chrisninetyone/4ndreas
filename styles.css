@@ -30,3 +30,15 @@ body {
     margin-left: 8px;
     margin-right: 8px;
 }
+.btn {
+  color: teal;
+}
+.btn:hover {
+  color: pink;
+}
+.socials {
+  margin: 20px;
+}
+.input {
+  margin: 10px;
+}
