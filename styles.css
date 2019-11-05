@@ -7,7 +7,7 @@ body {
 }
 .container {
 	display: grid;
-	/* grid-template-rows: minmax(33vh, auto) */
+  grid-template-rows: 1fr 4fr 1fr;
 }
 .banner {
 
