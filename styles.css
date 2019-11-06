@@ -1,13 +1,15 @@
 body {
-	height: 100%;
-	width: 100%;
+	/* height: 100%;
+	width: 100%; */
 	text-align: center;
 	background-size: cover;
 	background-position: center;
 }
 .container {
 	display: grid;
-  grid-template-rows: 1fr 3fr 1fr;
+	  grid-template-rows: 1fr 3fr 1fr;
+	  height: 100vh;
+	  width: 100%;
 }
 .banner {
 	display: flex;
@@ -22,7 +24,7 @@ body {
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 	font-size: 32px;
 	font-weight: bold;
-  text-align: center;
+  	text-align: center;
 }
 
 .banner input {
@@ -33,8 +35,9 @@ body {
 	text-align: center;
 }
 .banner a {
-	margin-left: 8px;
-	margin-right: 8px;
+	margin-left: 16px;
+	margin-right: 16px;
+	font-size: 45px;
 }
 .music-player {
 	display: flex;
@@ -52,7 +55,7 @@ body {
 }
 .btn:hover {
 	color: rgb(28, 214, 53);
-	font-size: 28px;
+	font-size: 42px;
 }
 #mc_embed_signup {
 	margin: 0 auto;
@@ -76,6 +79,9 @@ body {
 @media only screen and (min-width: 992px) {
 	body {
 		background-image: url(desktop.jpg)
+	}
+	.email {
+		margin-bottom: 10px;
 	}
 }
 
