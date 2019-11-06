@@ -8,8 +8,8 @@ body {
 .container {
 	display: grid;
 	  grid-template-rows: 1fr 3fr 1fr;
-	  height: 90vh;
-	  width: 100%;
+	  height: 100%;
+	  /* width: 100%; */
 }
 .banner {
 	display: flex;
@@ -49,6 +49,14 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+#mc-embedded-subscribe-form {
+	background: rgba(0,0,0,0.4);
+	border: 2px solid white;
+	padding: 10px !important;
+	/* display: block; */
+    position: relative;
+    text-align: left;
+}
 .btn {
 	color: white;
 	font-size: 30px;
@@ -64,8 +72,31 @@ body {
 }
 #mc_embed_signup_scroll label {
 	color: white;
+	padding: 10px !important;
 }
-
+.button{
+	display:inline-block;
+	padding:0.3em 1.2em;
+	margin:0 0.3em 0.3em 0;
+	border-radius:2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	background-color:rgba(0,0,0,0.7) !important;
+	text-align:center;
+	transition: all 0.2s;
+}
+.button:hover {
+	background-color:rgb(28, 214, 53) !important;
+}
+@media all and (max-width:30em){
+	button{
+		display:block;
+		margin:0.2em auto;
+	 }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	body {
