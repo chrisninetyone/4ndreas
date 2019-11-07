@@ -100,8 +100,8 @@ body {
 @media only screen and (max-width: 600px) {
 	.container {
 		background-image: url(mobile.jpg);
-		grid-template-rows: 1fr 5fr 1fr;
-		height: 85vh;
+		grid-template-rows: 1fr 3fr 1fr;
+		height: 100%;
 	}
 }
 
