@@ -99,7 +99,7 @@ body {
 	.container {
 		background-image: url(mobile.jpg);
 		grid-template-rows: 1fr 5fr 1fr;
-		height: 86vh;
+		height: 85vh;
 	}
 }
 
