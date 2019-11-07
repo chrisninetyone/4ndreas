@@ -4,7 +4,7 @@ body {
 .container {
 	display: grid;
 	grid-template-rows: 1fr 3fr 1fr;
-	height: 87vh;
+	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
@@ -97,7 +97,9 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.container {
-		background-image: url(mobile.jpg)
+		background-image: url(mobile.jpg);
+		grid-template-rows: 1fr 5fr 1fr;
+		height: 83vh;
 	}
 }
 
