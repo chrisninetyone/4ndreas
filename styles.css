@@ -1,15 +1,13 @@
 body {
-	/* height: 100%;
-	width: 100%; */
-	text-align: center;
-	background-size: cover;
-	background-position: center;
+	margin: 0px !important;
 }
 .container {
 	display: grid;
 	  grid-template-rows: 1fr 3fr 1fr;
-	  height: 100%;
+	  height: 100vh;
 	  /* width: 100%; */
+	  background-size: cover;
+		background-position: center;
 }
 .banner {
 	display: flex;
@@ -99,21 +97,21 @@ body {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	body {
+	.container {
 		background-image: url(mobile.jpg)
 	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-	body {
+	.container {
 		background-image: url(mobile.jpg)
 	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 992px) {
-	body {
+	.container {
 		background-image: url(desktop.jpg)
 	}
 	.email {
