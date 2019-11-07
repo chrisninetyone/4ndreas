@@ -4,7 +4,7 @@ body {
 .container {
 	display: grid;
 	  grid-template-rows: 1fr 3fr 1fr;
-	  height: 100vh;
+	  height: 93vh;
 	  /* width: 100%; */
 	  background-size: cover;
 		background-position: center;
