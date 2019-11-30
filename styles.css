@@ -1,8 +1,6 @@
 body {
-	/* margin: 0px !important;
-    height: auto;
-    min-height: 100vh; */
-
+	margin: 0px;
+	padding: 0px;
 }
 .container {
 	display: flex;
