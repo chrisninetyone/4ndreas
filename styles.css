@@ -7,12 +7,10 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	/* grid-template-rows: 1fr 3fr 1fr; */
-	/* min-height: -webkit-fill-available; */
 	top: 0;
-	bottom: 0;
+	left: 0;
 	position: absolute;
-	height: calc(100vh - 56px);
+	height: 100%;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -22,6 +20,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 
 .banner h1 {
@@ -50,11 +49,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 50%;
 }
 .email {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 #mc-embedded-subscribe-form {
 	background: rgba(0,0,0,0.4);
@@ -108,6 +109,9 @@ body {
 		background-image: url(mobile.jpg);
 		/* grid-template-rows: 1fr 1fr 1fr; */
 		height: calc(100vh - 56px);
+	}
+	.music-player {
+		width: 100%;
 	}
 }
 
