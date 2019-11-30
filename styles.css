@@ -1,6 +1,6 @@
 body {
 	margin: 0px !important;
-    height: auto!important;
+    height: auto;
     min-height: 100vh;
 	overflow: hidden;
 }
